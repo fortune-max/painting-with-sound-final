@@ -25,6 +25,7 @@ void settings() {
 }
 
 void setup() {
+  noCursor();
 	H.init(this);
 	audioSetup();
   colorSetup();
